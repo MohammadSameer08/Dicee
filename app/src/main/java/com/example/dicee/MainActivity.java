@@ -34,7 +34,7 @@ int dicee[]={R.drawable.dice1,
                int r=random.nextInt(6);
                die1.setImageResource(dicee[r]);
                int x=random.nextInt(6);
-               die2.setImageResource(dicee[r]);//
+               die2.setImageResource(dicee[x]);//
 
            }
        });
